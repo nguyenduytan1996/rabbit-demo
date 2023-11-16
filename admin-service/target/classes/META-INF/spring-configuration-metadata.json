@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "skybeds.rabbitmq",
+      "type": "com.fis.hotel.admin.configuration.RabbitMQProperties",
+      "sourceType": "com.fis.hotel.admin.configuration.RabbitMQProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "skybeds.rabbitmq.dead-exchange-name",
+      "type": "java.lang.String",
+      "sourceType": "com.fis.hotel.admin.configuration.RabbitMQProperties"
+    },
+    {
+      "name": "skybeds.rabbitmq.dead-queue-name",
+      "type": "java.lang.String",
+      "sourceType": "com.fis.hotel.admin.configuration.RabbitMQProperties"
+    },
+    {
+      "name": "skybeds.rabbitmq.exchange-name",
+      "type": "java.lang.String",
+      "sourceType": "com.fis.hotel.admin.configuration.RabbitMQProperties"
+    },
+    {
+      "name": "skybeds.rabbitmq.queue-name",
+      "type": "java.lang.String",
+      "sourceType": "com.fis.hotel.admin.configuration.RabbitMQProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true
+          initial-interval: 3s
+          max-attempts: 6
+          max-interval: 10s
+          multiplier: 2
+  application:
+    name: admin-service  
+  cloud:
+    config:
+      uri: ${SPRING_URI_CONFIG_SERVICE}
+#      uri: http://localhost:8061
+      
